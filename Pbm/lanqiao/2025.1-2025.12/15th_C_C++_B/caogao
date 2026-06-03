@@ -1,0 +1,17 @@
+a * b == gcd(a, b) * lcm(a, b)
+lcm(a, b) == a /gcd(a, b) * b
+gcd(a, b, c) == gcd(gcd(a, b), c)
+
+a = 6 b = 8 c = 12
+lcm(a, b) == 24 lcm(6, c) == 12
+12 20 30
+
+lcm(a,b,c) = lcm(lcm(a,b), c) =
+lcm(a/gcd(a,b)*b, c) = 
+(a/gcd(a,b)*b) / gcd(a/gcd(a,b)*b,c) * c
+
+gcd(a,c)*gcd(b,c)       
+gcd(a*b/gcd(a,b),c)  
+
+
+gcd(lcm(a,b),c)

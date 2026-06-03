@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "compilerPath": "D:/dev/sdk/Compilers/msys64/ucrt64/bin/g++.exe",
+            "includePath": [
+                "D:/dev/sdk/Compilers/msys64/ucrt64/include/c++/15.2.0/**"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++26",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
