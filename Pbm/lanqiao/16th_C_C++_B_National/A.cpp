@@ -4,7 +4,7 @@ using namespace std;
 #define ll long long
 // #define endl '\n'
 #define MOD 1000000007
-#define N 3
+#define N 2025
 
 ll dp[2030][2030];
 
